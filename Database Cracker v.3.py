@@ -29,7 +29,7 @@ def Main_Command_Prompt():
     sleep(1.5)
     print("Type cmds for a list of commands!")
     sleep(1.5)
-    User_Main_Command_Prompt_Input = input("Command Line: ")
+    User_Main_Command_Prompt_Input = input("Command Line: ").strip()
     def User_Main_Command_Prompt_Input_Check():
         if User_Main_Command_Prompt_Input == "cmds":
             sleep(1.5)
